@@ -1,0 +1,41 @@
+//Q 1 e Q2
+//Variaveis 
+
+var nome = "Diogo"
+var cidade = "Abreu e Lima"
+var idade = 47
+//
+//resolucao printar nome na tela
+console.log(); console.log ("Olá, meu nome é  ", nome, ", tenho  ", idade," anos, e moro em  ", cidade,".")
+
+///variaveis
+var nome = "Diogo"
+var cidade = "Abreu e Lima"
+//printar duas Strings na tela
+console.log(); console.log ( nome, "mora em", cidade,".")
+
+//Q4
+var altura = 1.55
+var base =  5
+var resultado
+
+resultado = (altura*base)/2
+console.log(); console.log ("a area do triangulo e o produto altura e a base dividido por dois e", resultado.toFixed(2))
+
+var n1 = 5
+var n2 = 8
+var n3 = 7
+var media
+
+media = (n1+n2+n3)/3
+console.log(); console.log ("a media e ", media.toFixed(2))
+
+//Q5
+var Valordoproduto = 200
+var Porcentagem = 23
+var Valordodesconto
+var novovalor
+Valordodesconto = (Valordoproduto*Porcentagem)/100
+novovalor = (Valordoproduto - Valordodesconto)
+console.log ("O valor original é", Valordoproduto,"com o desconto de",Porcentagem,"%, o novo valor é de", novovalor,", uma economia de ",Valordodesconto,"reais.")
+
