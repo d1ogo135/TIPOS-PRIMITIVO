@@ -39,3 +39,9 @@ Valordodesconto = (Valordoproduto*Porcentagem)/100
 novovalor = (Valordoproduto - Valordodesconto)
 console.log ("O valor original é", Valordoproduto,"com o desconto de",Porcentagem,"%, o novo valor é de", novovalor,", uma economia de ",Valordodesconto,"reais.")
 
+//Q9
+var celsius = 100
+var fahremheit = ( celsius * (9/5)) + 32
+console.log("A temperatura de " + celsius + "ºC equivale a " + fahrenheit + "ºF ")
+
+
